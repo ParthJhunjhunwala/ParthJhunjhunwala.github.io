@@ -393,7 +393,7 @@ textarea {
  */
 .row {
 	width: 94%;
-	max-width: 1140px;
+	/* max-width: 1140px; */
 	margin: 0 auto;
 }
 
@@ -631,6 +631,10 @@ textarea {
 	width: 16.66667%;
 }
 
+.block-1-5 .bgrid {
+	width: 20%;
+}
+
 .block-1-4 .bgrid {
 	width: 25%;
 }
@@ -661,6 +665,10 @@ textarea {
 @media screen and (max-width:1024px) {
 	.block-s-1-6 .bgrid {
 		width: 16.66667%;
+	}
+
+	.block-s-1-5 .bgrid {
+		width: 20%;
 	}
 
 	.block-s-1-4 .bgrid {
@@ -702,6 +710,10 @@ textarea {
 		width: 16.66667%;
 	}
 
+	.block-tab-1-6 .bgrid {
+		width: 20%;
+	}
+
 	.block-tab-1-4 .bgrid {
 		width: 25%;
 	}
@@ -739,6 +751,10 @@ textarea {
 @media screen and (max-width:600px) {
 	.block-mob-1-6 .bgrid {
 		width: 16.66667%;
+	}
+
+	.block-tab-1-5 .bgrid {
+		width: 20%;
 	}
 
 	.block-mob-1-4 .bgrid {
